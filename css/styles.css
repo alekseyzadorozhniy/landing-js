@@ -1,0 +1,679 @@
+body {
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.6;
+	font-family: "Oswald", sans-serif;
+	overflow-x: hidden;
+}
+
+ul {
+	padding-left: 0; 
+}
+
+p {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 37px;
+}
+
+.top-line {
+	position: fixed;
+	z-index: 9;
+	right: 0;
+	left: 0;
+	background-color: rgba(19,19,22,.3);
+	min-height: 100px;
+	padding-top: 20px;
+	color: white;
+	font-weight: bold;
+}
+
+.top-line ul {
+	padding-top: 17px;
+	text-align: center;
+}
+
+.top-line ul a {
+	color: white;
+}
+
+.top-line ul li {
+	display: inline-block;
+	font-size: 14px;
+	margin-right: 20px;
+	text-transform: uppercase;
+}
+
+.top-line ul li a:hover {
+	text-decoration: none; 
+	color: #ffe600;
+}
+
+.top-line ul li a:focus {
+	text-decoration: none; 
+}
+
+.logo {
+	padding-left: 43px;
+	background: url(../images/logo.png) no-repeat center left;
+	min-height: 60px;
+	position: relative;
+}
+
+.logo .title {
+	display: block;
+	font-size: 30px;
+	text-transform: uppercase;
+	position: absolute;
+	bottom: 1px;
+}
+
+.logo .subtitle {
+	font-size: 9px;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	position: absolute;
+	bottom: 0;
+}
+
+.slider {
+	background: url(../images/slider/bg1.jpg) no-repeat;
+	min-height: 1080px;
+	padding-top: 390px;
+	transition: 1s;
+}
+
+.hero {
+	min-height: 370px;
+	background-color: rgba(19,19,22,.3);
+	text-align: center;
+}
+
+.hero h1 {
+	margin: 1em 0 .6em 0;
+	font: bold 65px "Oswald";
+	color: white;
+	line-height: 1.2;
+}
+
+.hero button {
+	font: bold 20px "Oswald";
+	background-color: #ffe600;
+	border: 0;
+	padding: 15px 50px 15px 50px;
+	text-transform: uppercase;
+}
+
+.hero .arrow {
+	margin-top: 175px;
+}
+
+.hero .arrow:hover {
+  cursor: pointer;
+}
+
+.services {
+	min-height: 590px;
+	background-color: #fbfbfb;
+	position: relative;
+	text-align: center;
+	padding-top: 40px;
+}
+
+.lineafter::after {
+	position: absolute;
+	content: '';
+	height: 3px;
+	width: 170px;
+	background-color: #ffe600;
+	display: block;
+	top: 120px;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+.desc p {
+	padding-top: 40px;
+}
+
+.desc h3 {
+	font-size: 16px;
+}
+
+.services .item {
+	padding-top: 40px;
+}
+
+.services .item h3 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.howwedoit {
+	min-height: 465px;
+	background-color: #131a1d;
+	text-align: center;
+	padding-top: 40px;
+}
+
+.howwedoit p {
+	color: white;
+}
+
+.howwedoit h2 {
+	color: #ffe600;
+}
+
+.howwedoit .item {
+	padding-top: 55px;
+}
+
+.howwedoit .item h3 {
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+
+.portfolio {
+	min-height: 900px;
+	position: relative;
+	text-align: center;
+	padding-top: 45px;
+}
+
+.portfolio ul {
+	padding-top: 55px;
+}
+
+.portfolio ul li {
+	display: inline-block;
+	font-size: 16px;
+	margin-right: 20px;
+	margin-bottom: 5px;
+}
+
+.portfolio ul a {
+	text-decoration: none;
+	color: #515151;
+}
+
+.portfolio .active {
+	color: #ffe600;
+}
+
+.portfolio ul a:hover {
+	text-decoration: none;
+	color: #ffe600;
+}
+
+.works {
+  padding-top: 55px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+
+.works-item {
+	position: relative;
+}
+
+.work-descr {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	padding-top: 24%;
+	text-align: center;
+	color: white;
+}
+
+.work-descr h3 {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.work-descr h4 {
+	font-size: 16px;
+}
+
+.work-descr:hover {
+	background: rgba(255, 230, 0, .4);
+	opacity: 1;
+}
+
+.doyoulike {
+	min-height: 450px;
+	padding-top: 60px;
+}
+
+.doyoulike h2 {
+	padding-top: 40px;
+}
+
+.doyoulike p {
+	padding-top: 5px;
+	padding-bottom: 50px;
+}
+
+.doyoulike button {
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #ffe600;
+	border: 0;
+	padding: 15px 50px 15px 50px;
+	color: white;
+}
+
+.proud {
+	background-color: #131a1d;
+	min-height: 400px;
+	padding-top: 50px;
+	color: white;
+}
+
+.proud p {
+	padding-bottom: 50px; 
+}
+
+.proud h2 {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.rectangle {
+	height: 140px;
+	width: 100%;
+	border: 1px solid #ffe600;
+	padding-top: 25px;
+}
+
+.rectangle .number {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.rectangle .sign {
+	font-size: 16px;
+	color: #ffe600;
+	margin-top: 5px;
+}
+
+.whoweare {
+	min-height: 715px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.whoweare .line {
+  padding-top: 50px;
+}
+
+.whoweare .service .title {
+  text-align: left;
+}
+
+.whoweare .service .title h3 {
+  font-size: 16px;
+  margin-top: 0;
+}
+
+.whoweare .desc p{
+  padding-bottom: 50px;
+}
+
+.team {
+  min-height: 590px;
+  background-color: #fbfbfb;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.team p {
+  padding-bottom: 50px;
+}
+
+.team h2 {
+  margin-bottom: 20px;
+}
+
+.team img {
+  max-width: 100%;
+}
+
+.team .card {
+  min-height: 330px;
+  background-color: white;
+  box-shadow: 0 2px #dfe4e5;
+}
+
+.team .card:hover {
+	cursor: pointer;
+}
+
+.team .card h3 {
+  font-size: 20px;
+  color: #ffe600;
+}
+
+.team .card .post {
+  font-size: 16px;
+  color: #707070;
+}
+
+.triangle {
+	position: absolute;
+	left: 167px;
+	top: -24px;
+}
+
+.expand {
+  min-height: 300px;
+  background-color: #131316;
+  padding-top: 40px;
+  color: white;
+  position: relative;
+}
+
+.expand h3 {
+  display: inline-block;
+  color: #ffe600;
+  font-size: 20px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.expand p {
+  margin-bottom: 20px;
+}
+
+.expand .xIcon {
+  margin-left: 85%;
+}
+
+.expand .twIcon {
+  margin-right: 20px;
+}
+
+.skills {
+  min-height: 445px;
+  background-color: #131a1d;
+  padding-top: 40px;
+  color: white;
+  text-align: center;
+}
+
+.skills p {
+  padding-top: 5px;
+  padding-bottom: 40px;
+}
+
+.skills h3 {
+	font-size: 20px;
+  color: #ffe600;
+}
+
+.pie{
+    background-color: white;
+    width: 144px;
+    height: 144px;
+    border-radius: 100%;
+    position: relative;
+    left: 24%;
+}
+.clip1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 144px;
+    height: 144px;
+    clip: rect(0px, 72px, 144px, 0px);
+}
+.slice1 {
+    position: absolute;
+    width: 144px;
+    height: 144px;
+    clip: rect(0px, 144px, 144px, 72px);
+    border-radius: 100%;
+    background-color: #ffe600;
+    transform: rotate(0);
+}
+.clip2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 144px;
+    height: 144px;
+    clip: rect(0px, 144px, 144px, 72px);
+    
+}
+.slice2 {
+    position: absolute;
+    width: 144px;
+    height: 144px;
+    clip: rect(0px, 72px, 144px, 0px);                                
+    border-radius: 100%;
+    background-color: #ffe600;
+    transform: rotate(0);
+}
+.status {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 136px;
+    height: 136px;
+    padding-top: 44px;
+    border-radius: 100%;
+    font-size: 35px;
+    font-weight: lighter;
+    text-align: center;
+    color: #ffe600;
+    line-height: 50px;
+    background: #131a1d;
+}
+
+.clients {
+	min-height: 550px;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
+
+.clients-list {
+	padding-bottom: 50px;
+}
+
+.clients .clients-loop {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.clients .clients-loop .client-item {
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+.clients p {
+  padding-bottom: 80px;
+}
+
+.clients .leftArrow {
+  margin-right: 30px;
+}
+
+.reviews {
+	min-height: 300px;
+	background-color: #131a1d;
+  padding-top: 60px;
+  color: white;
+  text-align: center;
+}
+
+.reviews .lineafter::after {
+  top: 105px;
+}
+
+.reviews .quote {
+  font-size: 20px;
+  line-height: 1.3;
+  font-weight: normal;
+  padding-bottom: 40px;
+}
+
+.reviews .autor {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.reviews img {
+  margin-right: 3px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.contact {
+  min-height: 500px;
+  padding-top: 40px;
+  background-color: #fbfbfb;
+  text-align: center;
+}
+
+.contact .desc p {
+  padding-bottom: 55px;
+}
+
+.contact .item h3,
+.contact .item p {
+  font-size: 20px;
+}
+
+.contact .item h3 {
+  margin-bottom: 20px;
+}
+
+.message {
+  min-height: 660px;
+  background-color: #131a1d;
+  padding-top: 40px;
+  color: white;
+  text-align: center;
+}
+
+.message p {
+  padding-bottom: 50px;
+  padding-top: 10px;
+}
+
+.message input {
+  background-color: inherit;
+  border: 1px solid white;
+  min-height: 60px;
+  width: 100%;
+  padding: 15px;
+}
+
+:-ms-input-placeholder {
+  color: white;
+  font-size: 15px;
+  font-weight: lighter;
+}
+::-webkit-input-placeholder {
+  color: white;
+  font-size: 15px;
+  font-weight: lighter;
+}
+::-moz-placeholder {
+  color: white;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.message textarea {
+  min-height: 220px;
+  margin-top: 30px;
+  background-color: inherit;
+  border: 1px solid white;
+  width: 100%;
+  padding: 15px;
+}
+
+.warning {
+	border: 1px solid;
+	margin: 10px 0px;
+	padding:5px 5px 5px 5px;
+	color: #D63301;
+	background-color: #FFCCBA;
+	display: none;
+}
+
+.message button {
+	font-size: 15px;
+	font-weight: bold;
+  background-color: #ffe600;
+  border: 0;
+  padding: 15px 50px 15px 50px;
+  color: #131a1d;
+  margin-top: 30px;
+}
+
+footer {
+  padding-top: 25px;
+  min-height: 180px;
+  background-color: #131316;
+  text-align: center;
+  color: white;
+}
+
+footer .smak {
+  color: #ffe600;
+}
+
+footer p {
+  padding-bottom: 7px;
+}
+
+footer .icons {
+  margin-right: 7px;
+  margin-left: 7px;
+}
+
+footer button {
+  background-color: #ffe600;
+  margin-top: 30px;
+  border: 0;
+  padding: 17px 19px;
+}
+
+.sliderq {
+	width: 900px;
+	margin: 50px auto;
+	padding: 0 30px;
+	position: relative;
+}
+
+.slide-list {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.slide-wrap {
+	position: relative;
+	left: 0px;
+	top: 0;
+	width: 10000px;
+}
+.slide-item {
+	width: 280px;
+	padding: 10px;
+	float: left;
+}
